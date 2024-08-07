@@ -11,6 +11,7 @@ interface I1 {
     }
     static void fun3(){
         System.out.println(1);
+        System.out.println(34);
     }
     
 }
