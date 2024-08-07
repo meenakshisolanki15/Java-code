@@ -9,6 +9,9 @@ interface I1 {
     static void fun2(){
         System.out.println(1);
     }
+    static void fun3(){
+        System.out.println(1);
+    }
     
 }
 class demo1 implements I, I1 {
@@ -22,6 +25,7 @@ public class demo {
        demo1 d = new demo1();
        d.fun();
        I1.fun2();
+       I1.fun3();
     }
 }
 
